@@ -4,9 +4,12 @@
  *---------------------------------------------------------------------------------------*/
 
 package com.mycompany.app;
+import com.mycompany.app.B;; 
 
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello Remote World!");
+        B b = new B();
+        b.inkq();
     }
 }
